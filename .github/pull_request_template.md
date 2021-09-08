@@ -4,7 +4,7 @@ PR Title Format:
 1. [#issue-number] pkg [, pkg2, pkg3]: what's changed
 2. [#issue-number] *: what's changed
 
-Please fill in the number of the issue resolved by the PR in the title, if not, please add `issue-number-none`
+Please fill in the number of the issue resolved by the PR in the title, if not, please add `issue-number-none`.
 
 -->
 
