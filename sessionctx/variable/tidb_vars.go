@@ -29,6 +29,8 @@ import (
 	3. Add SysVar instance in 'defaultSysVars' slice.
 */
 
+// test
+
 // TiDB system variable names that only in session scope.
 const (
 	TiDBDDLSlowOprThreshold = "ddl_slow_threshold"
