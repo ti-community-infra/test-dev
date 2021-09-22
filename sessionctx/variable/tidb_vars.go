@@ -22,6 +22,8 @@ import (
 	"github.com/uber-go/atomic"
 )
 
+// Test
+
 /*
 	Steps to add a new TiDB specific system variable:
 	1. Add a new variable name with comment in this file.
