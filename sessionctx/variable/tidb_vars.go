@@ -30,6 +30,7 @@ import (
 */
 
 // TiDB system variable names that only in session scope.
+// Test
 const (
 	TiDBDDLSlowOprThreshold = "ddl_slow_threshold"
 
