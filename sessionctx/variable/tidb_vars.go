@@ -14,6 +14,8 @@
 
 package variable
 
+// test
+
 import (
 	"math"
 
