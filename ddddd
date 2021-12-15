@@ -1,5 +1,9 @@
 test1
 test2
 test3
+<<<<<<< HEAD
 test7
+=======
+test8
+>>>>>>> afa096f (fix: Fix test8 (#482))
 test5
