@@ -1,11 +1,8 @@
 test1
 test2
-<<<<<<< HEAD
 test3
-=======
+test4
 test5
-test8
-test5
->>>>>>> 4faa437 (fix: test5 (#490))
 test6
-test5
+test7
+test8
