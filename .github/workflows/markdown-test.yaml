@@ -12,4 +12,4 @@ jobs:
 
     steps:
       - name: Markdown Lint
-        run: echo 'LGTM'
+        run: exit 1
