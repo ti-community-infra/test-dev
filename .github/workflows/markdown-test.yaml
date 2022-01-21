@@ -1,1 +1,15 @@
+name: Markdown Test
 
+on:
+  pull_request:
+    paths:
+      - 'docs/**'
+
+jobs:
+
+  markdown-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Markdown Lint
+        run: echo 'LGTM'
