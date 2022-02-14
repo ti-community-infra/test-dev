@@ -8,8 +8,15 @@ on:
 
 jobs:
 
-  hello:
+  chunk:
+    runs-on: ubuntu-latest
 
+    steps:
+      - name: Fail
+        run: exit 1;
+
+  hello:
+    needs: [chunk]
     runs-on: ubuntu-latest
 
     steps:
