@@ -19,7 +19,7 @@ jobs:
         run: exit 1;
 
   hello:
-    needs: [chunk]
+    if: ${{ success() }}
     runs-on: ubuntu-latest
 
     steps:
