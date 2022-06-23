@@ -4,6 +4,7 @@ approvers:
   - Mini256
   - purelind
 reviewers:
-  - ti-community-infra/community-infra-reviewers
   - wuhuizuo
+  - Mini256
+  - purelind
 emeritus_approvers: []
