@@ -1,9 +1,6 @@
 # REF: https://www.kubernetes.dev/docs/guide/owners/#owners
 approvers:
-  - wuhuizuo
-  - Mini256
-  - purelind
+  - sig-config-approvers
 reviewers:
-  - ti-community-infra/community-infra-reviewers
-  - wuhuizuo
+  - sig-config-reviewers
 emeritus_approvers: []
