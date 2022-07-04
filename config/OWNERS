@@ -1,6 +1,3 @@
 # REF: https://www.kubernetes.dev/docs/guide/owners/#owners
-approvers:
-  - sig-config-approvers
 reviewers:
   - sig-config-reviewers
-emeritus_approvers: []

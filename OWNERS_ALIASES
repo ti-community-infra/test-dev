@@ -1,9 +1,5 @@
 aliases:
-  sig-config-approvers:
-    - wuhuizuo
-    - Mini256
-    - purelind
   sig-config-reviewers:
-    - wuhuizuo
-    - Mini256
-    - purelind
+    - zuo-bot-1
+    - zuo-bot-2
+    - mini-bot
