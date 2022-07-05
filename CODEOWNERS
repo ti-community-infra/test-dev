@@ -1,2 +1,3 @@
 sessionctx/variable/ @ti-community-infra/config-reviewer
 config/config.toml.example @ti-community-infra/config-reviewer
+temp @ti-community-infra/bots @ti-community-infra/community-infra-reviewers
