@@ -15,6 +15,7 @@
 package variable
 
 // test
+// test2
 
 import (
 	"math"
