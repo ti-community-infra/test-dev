@@ -1,2 +1,2 @@
 sessionctx/variable/ @config-reviewers
-config/config.toml.example @config-reviewers
+sessionctx/variable/ @community-infra-maintainers
