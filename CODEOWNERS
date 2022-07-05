@@ -1,2 +1,2 @@
-sessionctx/variable/ @config-reviewers
-sessionctx/variable/ @community-infra-maintainers
+sessionctx/variable/ @ti-community-infra/config-reviewers
+sessionctx/variable/ @ti-community-infra/config-reviewers @ti-community-infra/community-infra-maintainers
