@@ -1,0 +1,5 @@
+# REF: https://www.kubernetes.dev/docs/guide/owners/#owners
+reviewers:
+  - sig-reviewers
+approvers:
+  - sig-approvers
