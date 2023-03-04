@@ -2,4 +2,11 @@ aliases:
   sig-config-reviewers:
     - zuo-bot-1
     - zuo-bot-2
-    - mini-bot
+  sig-reviewers:
+    - zuo-bot-1
+    - zuo-bot-2
+    - purelind
+    - wuhuizuo
+  sig-approvers:
+    - zuo-bot-1
+    - zuo-bot-2
