@@ -1,4 +1,10 @@
 presubmits:
+  - name: pingcap-qe/ee-ops/prow_debug
+    agent: jenkins
+    always_run: true
+    context: nest_prow_debug
+    rerun_command: "/test nest_prow_debug"
+    trigger: "((?m)^/test nest_prow_debug,?(\\s+|$))"
   - name: pull-test-dev-validate-labels-yaml
     decorate: true
     run_if_changed: "labels.yaml"
