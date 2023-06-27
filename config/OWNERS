@@ -6,7 +6,7 @@ filters:
     labels:
       - text
     approvers:
-      - sig-approvers
+      - purelind
   .*\.toml\.example$:
     labels:
       - example
