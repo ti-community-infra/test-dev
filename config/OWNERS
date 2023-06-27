@@ -1,3 +1,9 @@
 # REF: https://www.kubernetes.dev/docs/guide/owners/#owners
-reviewers:
-  - sig-config-reviewers
+options:
+  no_parent_owners: true
+filters:
+  .*\.toml\.example:
+    labels:
+      - example
+    approvers:
+      - sig-config-reviewers
