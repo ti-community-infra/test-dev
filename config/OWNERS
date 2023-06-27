@@ -2,7 +2,12 @@
 options:
   no_parent_owners: true
 filters:
-  .*\.toml\.example:
+  .*\.txt$:
+    labels:
+      - text
+    approvers:
+      - sig-approvers
+  .*\.toml\.example$:
     labels:
       - example
     approvers:
