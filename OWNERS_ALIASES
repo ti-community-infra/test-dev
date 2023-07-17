@@ -3,10 +3,8 @@ aliases:
     - zuo-bot-1
     - zuo-bot-2
   sig-reviewers:
-    - zuo-bot-1
-    - zuo-bot-2
     - purelind
     - wuhuizuo
   sig-approvers:
-    - zuo-bot-1
-    - zuo-bot-2
+    - purelind
+    - wuhuizuo
