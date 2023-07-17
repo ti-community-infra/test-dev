@@ -6,10 +6,9 @@ filters:
     labels:
       - text
     approvers:
-      - purelind
-      - wuhuizuo
+      - zuo-bot-1
   .*\.toml\.example$:
     labels:
       - example
     approvers:
-      - sig-config-reviewers
+      - zuo-bot-2
