@@ -1,7 +1,7 @@
 presubmits:
   - name: pingcap-qe/ee-ops/prow_debug
     agent: jenkins
-    always_run: true
+    always_run: false
     context: nest_prow_debug
     rerun_command: "/test nest_prow_debug"
     trigger: "((?m)^/test nest_prow_debug,?(\\s+|$))"
