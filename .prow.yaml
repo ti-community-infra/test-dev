@@ -35,7 +35,6 @@ presubmits:
     agent: tekton-pipeline
     tekton_pipeline_run_spec:
       v1beta1:
-        pipelineRef: 
         pipelineSpec:
           params:
             - name: JOB_SPEC
@@ -44,10 +43,26 @@ presubmits:
               type: string
           tasks:
             - name: echo
-              taskRef:
-                kind: Task
-                name: echo
               params:
                 - name: message
-                  value: hello
+                  value: "hello"
+              taskSpec:
+                params:
+                  - name: message
+                    description: message to echo
+                    type: string
+                    default: hello
+                results:
+                  - name: printed
+                    description: The message printed.
+                steps:
+                  - name: echo-message
+                    image: "alpine"
+                    env:
+                      - name: MESSAGE
+                        value: "$(params.message)"
+                    script: |
+                      #!/usr/bin/env sh
 
+                      printf "%s" "${MESSAGE}"
+                      printf "%s" "${MESSAGE}" > "$(results.printed.path)"
