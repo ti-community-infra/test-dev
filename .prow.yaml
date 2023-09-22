@@ -28,6 +28,18 @@ presubmits:
         - name: github-token
           secret:
             secretName: github-token
+  - name: hello
+    decorate: true
+    branches:
+      - ^master$
+    spec:
+      containers:
+        - image: debian
+          command:
+            - sh
+            - -c
+          args:
+            - echo hello
   - name: hello-tekton
     always_run: true
     max_concurrency: 2
