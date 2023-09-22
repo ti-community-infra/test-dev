@@ -61,6 +61,3 @@ presubmits:
                 - name: SCRIPT
                   value: |
                     yq -n '.a = true'
-                    yq -n '.PROW_JOB_ID = "$(params.PROW_JOB_ID)"'
-                    yq -n '.PROW_JOB_ID = "$(params.JOB_SPEC)"'
-
