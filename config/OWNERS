@@ -1,5 +1,10 @@
 # REF: https://www.kubernetes.dev/docs/guide/owners/#owners
 options:
   no_parent_owners: true
-approvers:
-  - zuo-bot-1
+filters:
+  "config\\.toml\\.example$":
+    approvers:
+      - zuo-bot-1
+  ".*":
+    approvers:
+      - zuo-bot-2
