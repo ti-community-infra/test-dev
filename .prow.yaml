@@ -62,5 +62,5 @@ presubmits:
                   value: |
                     yq -n '.a = true'
                     yq -n '.PROW_JOB_ID = "$(params.PROW_JOB_ID)"'
-                    yq -n '.JOB_SPEC = "$(params.JOB_SPEC)"'
+                    echo '$(params.JOB_SPEC)'
 
